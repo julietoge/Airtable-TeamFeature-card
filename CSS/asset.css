@@ -1,0 +1,55 @@
+/* styling sheet */
+body {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: normal;
+}
+
+#container {
+    background-color: sandybrown;
+    width: 224px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#intro {
+    margin-bottom: 30px;
+}
+
+#plus_container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+#ten {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#button_container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    width: 90%;
+    padding: 16px;
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#list_style {
+    margin-bottom: 30px;
+}
+
+#first_line {
+    border-bottom: 2px;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
