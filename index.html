@@ -1,71 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML_Card</title>
-    <link rel="stylesheet" href="CSS/asset.css">
-</head>
-<!-- the display section of the website -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <!-- the display section of the website -->
 
-<body>
-    <div id="container">
-
-        <h1>Plus</h1>
-        <div id="intro">
-            For our teams looking to create<br />
-            connected apps to maage their<br />
-            own workflows<br />
+  <body>
+    <main>
+      <section class="heading-section">
+        <div class="Team-heading">
+          <span>Team</span>
+          <span>Try for free</span>
+        </div>
+        <div>For teams building apps to collaborate on shared workflows</div>
+      </section>
+      <section class="pricing-section">
+        <div class="annually">
+          <div>$20</div>
+          <div>
+            <p>per seat/month</p>
+            <p>billed annually</p>
+          </div>
         </div>
 
-        <div id="plus_container">
-            <div id="ten">
-                $10
-            </div>
-            <div>
-                per seat/month<br />
-                billed annually
-            </div>
+        <div class="monthly"><strong>$24</strong> billed monthly</div>
+
+        <button class="btn-wrapper">
+          <a
+            href="https://airtable.com/signup?utm_source=pricing-pro"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Sign Up</a
+          >
+        </button>
+      </section>
+
+      <section class="features">
+        <div>Everything in Free, plus:</div>
+        <div>
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>50,000 records per base</span>
         </div>
         <div>
-            $12 billed monthly
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>25,000 automation runs</span>
         </div>
-
-        <!-- try for free button -->
-        <div id="button_container">
-            <button>Try for free</button>
+        <div>
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>20 GB of attachments per base</span>
         </div>
-
-        <div id="list_style">
-            <p>
-                Everything in <strong>Free,</strong> plus:
-            </p>
-            <ul>
-                <li>
-                    3 <span id="first_line">Extensions</span> per base
-                </li>
-                <li>
-                    3 sync integrations
-                </li>
-                <li>
-                    5,000 records per base
-                </li>
-                <li>
-                    5GB of attachments per base
-                </li>
-                <li>
-                    custom branded forms
-                </li>
-                <li>
-                    6-month revision & snapshot history
-                </li>
-                <li>
-                    Automatic table syncing
-                </li>
-            </ul>
-
+        <div>
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>Standard sync integrations</span>
         </div>
-    </div>
-</body>
+        <div>
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>Extensions</span>
+        </div>
+        <div>
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>Gantt and timeline view</span>
+        </div>
+        <div>
+          <span
+            ><img
+              src="./assets/icons/fa-check.svg"
+              alt="" /></span
+          ><span>Expanded color, formatting, and calendar options</span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

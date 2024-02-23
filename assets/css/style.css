@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter Display',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+main{
+    border: 1px solid rgb(196, 199, 205);
+    border-radius: 14px;
+    padding: 1rem 1.5rem;
+    color: #333333;
+    width: 90%;
+    max-width: 300px;
+}
+.Team-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.Team-heading span:nth-child(1){
+    font-size: 28px;
+    font-weight: 500;
+}
+.Team-heading span:nth-child(2){
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #cff5d1;
+    border-radius: 9999px;
+    margin-left: 1rem;
+    padding: 0.1rem 0.5rem;
+    letter-spacing: -0.01rem;
+    margin-top: 8px;
+}
+.heading-section div:nth-child(2){
+    line-height: 20px;
+    padding-bottom: 1rem;
+    font-size: 13px;
+    letter-spacing: -0.01rem;
+    font-weight: 500;
+    padding-right: 1.5rem;
+}
+.pricing-section .annually{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.pricing-section .annually div:nth-child(1){
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+.pricing-section .annually div:nth-child(2){
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 18px;
+    padding-bottom: 8px;
+}
+.pricing-section .monthly{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.btn-wrapper{
+    background-color: #166ee1;
+    width: 100%;
+    border-radius: 9999px;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+margin: 0 0 16px;
+}
+.btn-wrapper a{
+    text-decoration: none;
+    color: #fff;
+    fill: #fff;
+    font-size: 16px;
+    font-weight: 575;
+    
+}
+.features{
+    margin-top: 24px;
+    
+}
+.features div{
+    font-size: 13px;
+    letter-spacing: -0.01rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.features div:nth-child(1){
+    font-size: 16px;
+}
+.features div span:nth-child(2){
+    margin-left: 8px;
+}
+.features img{
+width: 0.8rem;
+height: 0.7rem;
+
+}
