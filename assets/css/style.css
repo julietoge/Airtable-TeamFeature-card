@@ -99,13 +99,7 @@ main {
   line-height: 1.25;
   padding: 0 0 12px 0;
 }
-.feature-item img {
-  width: 20px;
-  height: 20px;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-right: 6px;
-}
+
 .feature-item {
   display: flex;
   flex-direction: row;
@@ -114,4 +108,11 @@ main {
   padding-bottom: 0.25rem;
   letter-spacing: -0.01rem;
   font-weight: 400;
+}
+.feature-item img {
+  width: 20px;
+  height: 20px;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-right: 4px;
 }
